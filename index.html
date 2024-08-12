@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collab</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@200&family=Teko:wght@300..700&family=Tiny5&display=swap');
+        </style>
+    <style>
+        body{
+            font-family: "Open Sans", system-ui;
+            box-sizing: border-box;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+        nav{
+            /* background-color: yellow; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            font-size: 1rem;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .logo{
+            display: inline-block;
+
+        }
+        .nav_link {
+            display: inline-block;
+            
+            
+        }
+        .nac_link{
+            color: gray;
+        }
+        .nav_container{
+            display: flex;
+            align-items: center;
+            font-weight: 500;
+        }
+        a{
+          text-decoration: none;
+        }
+        li{
+            display: inline-block;
+            margin-left: 1.3rem;
+           
+        }
+        .nav_btn{
+            box-sizing: border-box;
+            height: 4rem;
+            width: 20rem;
+            display: inline-block;
+            align-items: center;
+            border: none;
+            margin-top: 0px;
+            margin-left: 45rem;
+            /* background-color: red; */
+            padding: 10px;
+            
+            
+        }
+        #nav_btn{
+            border: none;
+            align-items: center;
+            color: white;
+            padding: 3px;
+            height: 2.5rem;
+            border-radius: 5px;
+            background: linear-gradient(#ee6767, #f88400);
+            width: 9rem;
+            margin-left: 7px;
+            
+        }
+        .col{
+            display: inline-block;
+            box-sizing: border-box;
+            background-color: rgb(214, 233, 175);
+            width: 80%;
+            height: 100%;
+            padding: 40px 4px
+        }
+        .intro-container{
+            box-sizing: border-box;
+            align-items: center;
+            display: block;
+            /* background-color: paleturquoise; */
+            height: 650px;
+            padding-top: 30px;
+            padding-bottom: 20px;
+            margin-left: 211.5px;
+            margin-right: 211.5px;
+        }
+        .intro-row{
+            box-sizing: border-box;
+            padding: 2%;
+            /* background-color: plum; */
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            display: flex;
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+        }
+        .into-head{
+            box-sizing: border-box;
+            color: (157, 161, 166);
+            display: block;
+            font-size: 16px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            text-align: left;
+        }
+        .intro-h1{
+            font-weight: 700;
+            color: rgb(80, 34, 226);
+            display: block;
+            font-size: 50px;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav_container">
+        <div class="logo">
+            <img src="https://themewagon.github.io/collab/v1.0.0/assets/img/gallery/logo.png" alt="">
+        </div>
+        <div class="nav_link">
+            <ul>
+                <li><a href="#" class="nac_link">Products</a></li>
+                <li><a href="#" class="nac_link">UseCases</a></li>
+                <li><a href="#" class="nac_link">Developers</a></li>
+                <li><a href="#" class="nac_link">Pricing</a></li>
+            </ul>
+        </div>
+        <div class="nav_btn">
+            <a style="color: rgb(253, 153, 2);" href="#">Sign in</a>
+            <button id="nav_btn">TRY FOR FREE</button>
+        </div>
+    </div>
+    </nav>
+    <section style="text-decoration: none; height: 500px; padding-top: 100px; padding-bottom: 50px;">
+        <div class="intro-container">
+            
+            <div class="intro-row">
+                <div class="col">
+                    <h6 class="into-head" style="color: rgb(157, 161, 166);">TOP BUSINESS APP</h6>
+                    <h1 class="intro-h1">The plaform for <br>
+                        better cooperation</h1>
+                        <p style="font-size: 19px; color: rgb(75, 77, 79); font-weight: 500; display: block; text-align: left;">Crafted with care & creativity. Brings together
+                           <br> everthing in one place.</p>
+                        <a href="#">DOWNLOAD</a>
+                        <a href="#">CHECK DEMO</a>
+                                        
+                </div>
+                <div class="col">
+                    <img width="100%" src="https://themewagon.github.io/collab/v1.0.0/assets/img/gallery/hero-header.gif" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
